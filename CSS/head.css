@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+#navmenu ul,#header > .nav {
+	width:90%;
+	margin:0px 5%;
+}
+#navmenu {
+	width:100%;
+	background-color:#eaeaea;
+	border:#cacaca 1px solid;
+}
+#navmenu .cont {
+	width:16px;
+	height:16px;
+	background-color:#2598c7;
+	line-height:16px;
+	text-align:center;
+	color:#FFF;
+	float:left;
+	margin:8px 0px 0px 5px;
+}
+/*#navmenu ul,#header > .search,#header > .nav {
+	width:1000px;
+	margin: 0px auto;
+}*/
+#navmenu li {
+	list-style:none;
+	float:right;
+	line-height:32px;
+	margin:0px 15px;
+}
+#navmenu #service #telbox {
+	position:fixed;
+	top:33px;
+	left:5%;
+	width:90%;
+	min-width:1000px;
+}
+#navmenu #service #telbox #tel {
+	display:none;
+	width:100px;
+	float:right;
+	margin-right:80px;
+	border:1px solid #dadada;
+	padding:10px;
+	background-color:#FFF;
+}
+#navmenu #service #telbox #tel p {
+	text-align:center;
+	font-size:12px;
+	color:#000;
+	line-height:24px;
+	cursor:pointer;
+}
+#navmenu #service #telbox #tel p:hover{
+	color:#2598c7;
+}
+#navmenu a,#navmenu span,#navmenu img {
+	float:left;
+	cursor:pointer;
+}
+#navmenu .img {
+	margin:13px 0px 0px 5px;
+}
+#navmenu .icon {
+	margin:8px 5px 0px 0px;
+}
+#header > .search .img {
+	margin:25px 0px;
+	float:left;
+}
+
+#header > .nav .logobox {
+	float:left;
+}
+#header > .nav .logobox img {
+	height:40px;
+	margin:20px 8px 20px 0px;
+	float:left;
+}
+#header > .nav ul {
+	width:550px;
+	list-style:none;
+	float:right;
+	margin:30px 0px 0px;
+}
+
+#header > .nav li a {
+	float:left;
+	font-size:14px;
+	line-height:30px;
+	width:110px;
+	display:inline-block;
+	text-align:center;
+	border-bottom:3px solid #00c7db;
+	cursor:pointer;
+}
+.current {
+	border-bottom:3px solid #f7922f !important;
+	color:#00c7db !important;
+}
+
+
+
+
+

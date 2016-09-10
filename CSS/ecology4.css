@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	width:100%;
+}
+#section > .ecology img {
+	width:100%;
+	margin:0px auto;
+}
+#section > .ecology {
+	border-top:1px solid #6FC;
+	position:relative;
+}
+#section > .ecology .ecologytxt {
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#section > .ecology .ecologytxt h2 {
+	font-size:50px;
+	font-family:"创艺简行楷";
+	font-weight:normal;
+	color:#da9d28;
+	text-align:center;
+	margin:50px auto 80px;
+}
+#section > .ecology .ecologytxt img {
+	width:120px;
+	margin:30px auto 20px;
+}
+#section > .ecology .ecologytxt h4 {
+	text-align:center;
+	font-size:24px;
+	font-family:"创艺简隶书";
+	color:#646464;
+	margin:0px auto 20px;
+}
+#section > .ecology .ecologytxt .btn {
+	width:300px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:60px auto 0px;
+	color:#FFF;
+	background-color:#006ab4;
+	border-radius:10px;
+	font-size:24px;
+}
+
+#section > .design {
+	width:100%;
+	background-color:#fafafa;
+	padding:10px 8% 20px;
+}
+#section > .design h2 {
+	font-size:46px;
+	font-weight:normal;
+	font-family:"创艺简行楷";
+	color:#000;
+	text-align:center;
+	margin:40px auto 30px;
+}
+#section > .design p,#section > .supplyChain p,#section > .first p,#section > .data p {
+	text-align:center;
+	font-size:24px;
+	font-family:"创艺简隶书";
+	color:#646464;
+}
+#section > .design .experience {
+	width:30%;
+	text-align:center;
+	float:left;
+}
+#section > .design .experience img {
+	width:100px;
+	margin:30px auto 10px;
+}
+#section > .design .experience dt {
+	font-size:20px;
+	color:#000;
+	line-height:32px;
+	font-weight:bold;
+}
+#section > .design .experience dd {
+	font-size:16px;
+	line-height:26px;
+}
+#section > .design .desimg {
+	width:40%;
+	float:left;
+}
+#section > .design .desimg img {
+	width:60%;
+	margin:30px auto;
+}
+#section > .supplyChain {
+	width:100%;
+	padding:10px 8% 20px;
+	background-color:#dadada;
+}
+#section > .supplyChain h2 {
+	font-size:46px;
+	font-weight:normal;
+	font-family:"创艺简行楷";
+	color:#d63312;
+	text-align:center;
+	margin:40px auto 30px;
+}
+
+#section > .supplyChain .chainimg img,#section > .data .dataimg img {
+	width:60%;
+	margin:30px auto;
+}
+#section > .first {
+	width:100%;
+	padding:10px 8% 20px;
+}
+#section > .first h2 {
+	font-size:46px;
+	font-weight:normal;
+	font-family:"创艺简行楷";
+	color:#d2992b;
+	text-align:center;
+	margin:40px auto 30px;
+}
+#section > .first .firstimg .video {
+	width:50%;
+	margin:0px auto 30px;
+	border:1px solid #d2992b;
+}
+#section > .first .firstimg video {
+	width:100%;
+}
+#section > .first .firstimg h3 {
+	font-size:24px;
+	font-weight:normal;
+	font-family:"创艺简隶书";
+	color:#646464;
+	text-align:center;
+	margin:30px auto 20px;
+}
+#section > .first .firstbox figure,#section > .data .databox figure {
+	width:25%;
+	float:left;
+}
+#section > .first .firstbox figure img,#section > .data .databox figure img {
+	width:40%;
+	margin:50px 30% 10px;
+}
+#section > .first .firstbox figure figcaption {
+	font-size:20px;
+	font-family:"创艺简标宋";
+	color:#d2992b;
+	text-align:center;
+	line-height:30px;
+	margin:0px auto 50px;
+}
+#section > .data {
+	width:100%;
+	padding:10px 8% 40px;
+	background-color:#fafafa;
+}
+#section > .data h2 {
+	font-size:46px;
+	font-weight:normal;
+	font-family:"创艺简行楷";
+	color:#fc6459;
+	text-align:center;
+	margin:40px auto 30px;
+}
+#section > .data .databox figure figcaption {
+	font-size:16px;
+	font-family:"创艺简标宋";
+	color:#fc6459;
+	text-align:center;
+	line-height:30px;
+}
+#section > .listbox {
+	width:84%;
+	margin:20px 8%;
+}
+
+#section > .listbox .company img {
+	width:100%;
+	margin:0px auto 40px;
+}
+

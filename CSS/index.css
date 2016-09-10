@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	width:90%;
+	margin:0px 5%;
+}
+#section .banner {
+	width:50%;
+	float:left;
+	position:relative;
+	margin:0px auto 30px;
+}
+#section .banner .photobox img,#section .bannerImg img,#section > .shopping .shoppingimg .shopImg img,#section > .community .communityimgbox .communityImg img {
+	width:100%;
+}
+#section .bannerImg,#section .banner .photobox {
+	overflow:hidden;
+}
+#section .bannerImg img:hover,#section .banner .photobox img:hover {
+	transform:scale(1.08);
+}
+#section .banner .ctrlbox {
+	width:100%;
+	height:40px;
+	background-color:#FFF;
+	position:absolute;
+	bottom:0px;
+	opacity:0.3;
+}
+#section .banner .ctrlboxsmall .ctrl {
+	width:40px;
+	height:10px;
+	background-color:#999;
+	margin:15px 5px;
+	float:right;
+	opacity:0.8;
+	cursor:pointer;
+}
+.currentBg {
+	background-color:#000 !important;
+}
+
+
+#section .bannerImg {
+	width:25%;
+	float:left;
+}
+#section > .shopping,#section > .community {
+	margin:0px auto 30px;
+}
+#section > .shopping h2,#section > .community h2 {
+	font-size:32px;
+	font-weight:normal;
+	font-family:"创艺简行楷";
+	color:#000;
+	text-align:center;
+	margin:10px auto;
+}
+#section > .shopping p,#section > .community p {
+	text-align:center;
+	font-size:16px;
+	font-family:"创艺简标宋";
+	color:#646464;
+	margin:0px auto 20px;
+}
+
+#section > .shopping .shoppingimg .shopImg {
+	width:32%;
+	float:left;
+	margin-bottom:20px;
+}
+#section > .shopping .shoppingimg .shopImgcenter {
+	margin:0px 2% 20px;
+}
+
+#section > .shopping .shoppingimg .shopImg  h3 {
+	text-align:center;
+	font-size:20px;
+	font-family:"创艺简行楷";
+	color:#323232;
+	line-height:40px;
+	margin:5px auto 0px;
+	font-weight:normal;
+	padding:0px 10px;
+}
+#section > .shopping .shoppingimg .shopImg  h5 {
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#888;
+	line-height:20px;
+	font-weight:normal;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+#section > .shopping .shoppingimg .shopImg  h5:hover,#section > .community .communityimgbox .communityImg h5:hover {
+	color:#646464;
+	cursor:pointer;
+}
+
+#section > .shopping .shoppingimg .shopImg  h6 {
+	float:left;
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#888;
+	line-height:36px;
+	font-weight:normal;
+}
+#section > .shopping .shoppingimg .shopImg  h4 {
+	float:right;
+	font-size:24px;
+	font-family:"创艺简行楷";
+	color:#d2992b;
+	line-height:36px;
+	margin:5px auto 0px;
+	font-weight:normal;
+	padding:0px 10px;
+}
+
+#section > .community .communityimgbox .communityImg {
+	width:49%;
+	float:left;
+	margin-bottom:20px;
+}
+#section > .community .communityimgbox .communityImgright {
+	margin:0px 2% 20px 0px;
+}
+
+#section > .community .communityimgbox .communityImg h3 {
+	text-align:center;
+	font-size:20px;
+	font-family:"创艺简行楷";
+	color:#323232;
+	line-height:40px;
+	margin:5px auto 0px;
+	font-weight:normal;
+	padding:0px 10px;
+}
+#section > .community .communityimgbox .communityImg h5 {
+	width:100%;
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#888;
+	line-height:20px;
+	font-weight:normal;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+
